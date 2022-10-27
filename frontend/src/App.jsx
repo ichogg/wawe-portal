@@ -58,6 +58,8 @@ function App() {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]);
+      const count = await getWaveCount();
+      setCurrentCunt(count);
     } catch (error) {
       console.error(error);
     }
@@ -121,7 +123,6 @@ function App() {
     const doIt = async () => {
       const account = await findMetaMaskAccount();
       const count = await getWaveCount();
-      console.log("cunt:: ", count);
       setCurrentCunt(count);
 
       if (account !== null) {
