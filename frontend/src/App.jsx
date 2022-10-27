@@ -12,13 +12,13 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto my-24">
+    <div className="container mx-auto my-6">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <img
-            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+            className="lg:w-1/6 md:w-2/6 w-3/6 mb-10 object-cover object-center rounded-full"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="https://pbs.twimg.com/profile_images/1585541457611481088/MWSR0RmX_400x400.jpg"
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
